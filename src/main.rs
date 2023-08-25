@@ -22,6 +22,8 @@ mod isbn13;
 mod files;
 #[allow(dead_code)]
 mod rgb;
+#[allow(dead_code)]
+mod run_length_encoding;
 
 fn main() {
     println!("Hello, world!");
