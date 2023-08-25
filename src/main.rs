@@ -20,6 +20,8 @@ mod weeks_between;
 mod isbn13;
 #[allow(dead_code)]
 mod files;
+#[allow(dead_code)]
+mod rgb;
 
 fn main() {
     println!("Hello, world!");
