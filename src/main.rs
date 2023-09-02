@@ -24,6 +24,10 @@ mod files;
 mod rgb;
 #[allow(dead_code)]
 mod run_length_encoding;
+#[allow(dead_code)]
+mod flexible_date_format;
+#[allow(dead_code)]
+mod shortest_path;
 
 fn main() {
     println!("Hello, world!");
