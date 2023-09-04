@@ -28,6 +28,8 @@ mod run_length_encoding;
 mod flexible_date_format;
 #[allow(dead_code)]
 mod shortest_path;
+#[allow(dead_code)]
+mod vigenere_cipher;
 
 fn main() {
     println!("Hello, world!");
