@@ -1,5 +1,4 @@
 mod vigenere {
-    use std::collections::hash_map::Keys;
     use num_enum::TryFromPrimitive;
 
     #[derive(Debug, PartialEq, Eq, Clone, TryFromPrimitive)]
