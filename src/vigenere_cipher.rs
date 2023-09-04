@@ -125,29 +125,6 @@ mod vigenere {
             })
             .map(|v| Char::try_from(v).unwrap().to_char())
             .collect::<String>()
-        // ciphertext
-        //     .split_ascii_whitespace()
-        //     .map(|w|
-        //         w.chars()
-        //             .zip(key.chars().cycle())
-        //             .map(|(c, k)| {
-        //                 let diff = Char::from_char(&c).unwrap() as i8 - Char::from_char(&k)
-        //                     .unwrap() as i8;
-        //                 if diff < 0 {
-        //                     (26 + diff) % 26
-        //                 } else {
-        //                     diff % 26
-        //                 }
-        //             })
-        //             .map(|v| Char::try_from(v).unwrap().to_char())
-        //             .collect::<String>())
-        //     .fold(String::new(), |mut s, w| {
-        //         s.push_str(&w);
-        //         s.push(' ');
-        //         s
-        //     })
-        //     .trim()
-        //     .to_string()
     }
 
     #[cfg(test)]
